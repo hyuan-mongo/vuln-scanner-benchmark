@@ -1,6 +1,6 @@
 module github.com/hyuan-mongo/vuln-scanner-benchmark
 
-go 1.21.6
+go 1.21
 
 require k8s.io/client-go v0.26.10
 
