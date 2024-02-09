@@ -3,9 +3,11 @@ module github.com/hyuan-mongo/vuln-scanner-benchmark
 go 1.21
 
 require (
-	k8s.io/apiserver v0.22.2
+	k8s.io/apiserver v0.29.1
 	k8s.io/client-go v0.29.1
 )
+
+replace golang.org/x/text => golang.org/x/text v0.3.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
